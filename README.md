@@ -44,7 +44,7 @@ Visit the [valhalla docs](https://valhalla.github.io/valhalla/api/turn-by-turn/a
 
 ### Generating coordinates
 
-You may input the coordinates manually if they are only a few, but for my case I wrote the ```coord-scrapper.py``` script . It works over the website [https://www.catalogosofertas.com.br/], which contains some nice info about the addresses of unities of franchises all over Brazil.
+You may input the coordinates manually if they are only a few, but for my case I wrote the ```coord_scrapper.py``` script . It works over the website [https://www.catalogosofertas.com.br/], which contains some nice info about the addresses of unities of franchises all over Brazil.
 For example:
 ```shell
 $ python https://www.catalogosofertas.com.br/lojas/bradesco/localizacoes/rio-de-janeiro bradesco.json
