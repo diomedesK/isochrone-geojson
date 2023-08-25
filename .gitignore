@@ -1,0 +1,5 @@
+.vim
+generated
+geo-env
+ipynb_checkpoints
+__pycache__
