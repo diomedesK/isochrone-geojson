@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import geopy, requests, concurrent.futures, time, json, re, sys
 
 def fetch_coordinates(cep):
-    if bool(re.match("^\\d{5}-\\d{3}$", cep)) == False:
+    if bool(re.match("^\\d{5}-?\\d{3}$", cep)) == False:
         return None
     
     print(f"Fetching {cep}")
